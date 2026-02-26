@@ -1,0 +1,6 @@
+================ JE RESULT ================
+Baseline refusal rate: 0.533
+After removal refusal rate: 0.200
+Baseline jailbreak rate: 0.467
+After removal jailbreak rate: 0.800
+JE = 0.3333
