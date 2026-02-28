@@ -1,0 +1,43 @@
+已安装的核心包：
+✅ torch==2.5.1 - PyTorch最新稳定版
+
+✅ transformers==4.46.3 - Hugging Face最新版
+
+✅ accelerate==0.24.0 - 分布式训练
+
+✅ datasets==2.14.0 - 数据集加载
+
+✅ numpy==1.26.4 - 科学计算
+
+✅ pandas==2.2.1 - 数据处理
+
+✅ scikit-learn==1.4.1 - 机器学习
+
+✅ scipy==1.12.0 - 科学计算
+
+✅ matplotlib==3.8.3 - 可视化
+
+✅ sentencepiece==0.2.1 - 分词器
+
+✅ protobuf==6.33.2 - 协议缓冲区
+
+✅ einops==0.8.1 - 张量操作
+
+✅ evaluate==0.4.6 - 评估工具
+
+✅ rouge-score==0.1.2 - ROUGE指标
+
+✅ tqdm==4.67.1 - 进度条
+
+3. 可能缺失的包（针对GCAV实现）：
+根据论文，可能需要：
+
+tcav 或相关包（GCAV实现）
+
+transformer_lens（激活操作）
+
+wandb（实验跟踪）- 可选
+
+使用国内镜像源加速：
+# 一次性安装所有
+pip install wandb jupyter ipywidgets jupyterlab -i https://pypi.tuna.tsinghua.edu.cn/simple
